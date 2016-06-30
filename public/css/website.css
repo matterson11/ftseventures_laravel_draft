@@ -1,0 +1,173 @@
+body {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 50px;
+    /*background-color: #CDCDCD;*/
+    background-color: rgb(50, 10, 50);
+
+}
+.navbar-centered a {
+    font-size: 14px;
+    /*color: black;*/
+    color: white;
+    font-weight: bold;
+}
+
+.heavy-line {
+    border-width: 0;
+    height: 2px;
+    background-color: black;
+}
+.large-font {
+    font-size: 35px;
+}
+.navbar-custom {
+    /*background-color: #CDCDCD;*/
+    background-color: rgb(50, 10, 50);
+    height: 50px;
+    text-decoration: none;
+}
+.navbar-custom a {
+    font-size: 18px;
+    /*color: black;*/
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-custom .search_form {
+    padding: 5px;
+}
+
+/* Main Page */
+
+th {
+    border: 1px black;
+    border-style: solid none solid none;
+}
+.analyst-data {
+    border: 1px black;
+    border-style: solid none solid none;
+}
+.bold {
+    font-weight: bold;
+}
+table {
+    width: 100%;
+}
+.table_data td,
+.table_data th {
+    padding: 2px;
+}
+.table_data tr.reverse,
+.table_data tr:nth-child(even){
+    background-color: #f6f7fb;
+}
+
+.rating-notice {
+    color: green;
+}
+.center {
+    text-align: center;
+}
+
+.increase {
+    color: green;
+}
+
+.decrease {
+    color: red;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container {
+    width: auto;
+    max-width: 80%;
+    padding: 0 15px;
+}
+.container .text-muted {
+    margin: 20px 0;
+}
+.content-stripe {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.introduction-stripe {
+    min-height: 150px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.table-content.reverse,
+.table-content:nth-child(even) {
+    background-color: #f6f7fb;
+}
+
+.table-content.reverse:nth-child(even) {
+    background-color: #fff;
+}
+
+
+
+/* Search */
+
+
+#search_keyword_id
+{
+    width:300px;
+    border:solid 1px #CDCDCD;
+    padding:10px;
+    font-size:14px;
+}
+.search_button{
+    width:100px;
+    border:solid 1px #CDCDCD;
+    padding:10px;
+    font-size:14px;
+}
+#result
+{
+    position:absolute;
+    width:320px;
+    display:none;
+    margin-top:-1px;
+    border-top:0px;
+    overflow:hidden;
+    border:1px #CDCDCD solid;
+    background-color: white;
+}
+.show
+{
+    font-family:tahoma;
+    padding:10px;
+    border-bottom:1px #CDCDCD dashed;
+    font-size:15px;
+}
+.show:hover
+{
+    background:#364956;
+    color:#FFF;
+    cursor:pointer;
+}
